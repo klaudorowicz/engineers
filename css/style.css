@@ -1,0 +1,218 @@
+body{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #1f2937;
+}
+
+header .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 15vw;
+
+  gap: 80px;
+  /* justify-content: center; */
+}
+
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+header .links{
+  display: flex;
+  gap: 20px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.text{
+  color: white;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header .content{
+  display: flex;
+  padding: 70px 100px;
+  gap: 80px;
+  justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  header .content {
+    flex-wrap: wrap;
+  }
+}
+
+header .content .left{
+  flex: 0 1 500px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+header .content .right{
+  flex: 0 1 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 500px;
+}
+
+button{
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  border: 0;
+  margin: 10px 0;
+}
+
+button:hover{
+  background-color: #386bbe;
+  color:rgb(221, 221, 223);
+}
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+  gap: 30px;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.section1 .bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+.section1 .bottom .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1 .text{
+  min-width: min-content;
+  max-width: 200px;
+  text-align: center;
+  margin: 10px;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.illustration{
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration img{
+  width: 150px;
+}
+
+.section2{
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 22%;
+}
+
+.section2 .quote{
+  align-self: center;
+  font-size: 36px;
+  text-align: center;
+  /* text-justify: inter-word; */ /* doesn't work in chrome(?) */
+  font-weight: lighter; /* i didn't see different */
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.author{
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.section3{
+  display: flex;
+  align-items:center;
+  background-color: #3882f6;
+  padding: 40px 70px;
+  border-radius: 10px;
+  margin: 70px 70px;
+  align-self: center;
+  gap: 8vw;
+}
+
+.section3 .header{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.section3 button{
+  border: 1px solid white;
+}
+
+.footer{
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
